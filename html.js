@@ -7,6 +7,9 @@ import typography from './utils/typography'
 
 const BUILD_TIME = new Date().getTime()
 
+
+prefixLink('/')
+
 module.exports = React.createClass({
   propTypes () {
     return {
